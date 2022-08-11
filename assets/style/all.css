@@ -53,6 +53,21 @@ small {
   width: 40px;
   height: 40px; }
 
+.assign-list-active {
+  background-color: #f8f9fa; }
+
+.assign-list a:hover {
+  background-color: #f8f9fa; }
+
+.line-clamp {
+  white-space: nowrap;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis; }
+
+.icon-hover:hover {
+  color: #198754; }
+
 .member-photo {
   width: 141px;
   height: 141px;
