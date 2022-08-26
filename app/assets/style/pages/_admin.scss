@@ -3,3 +3,19 @@
     height: 141px;
     object-fit: cover;
 }
+.page-link{
+    border-color: $success;
+    color: $success;
+    &:hover{
+        background-color: $success;
+        border-color: $success;
+        color:white;
+        z-index: 3;
+    }
+    
+}
+.pagination{
+    position: relative;
+    display: inline-flex;
+    vertical-align: middle;
+}

@@ -17,7 +17,7 @@ current: admin
                 </a>
 
                 <!-- New Admin Modal -->
-                <div class="modal fade" id="addNewAdmin" tabindex="-1" aria-labelledby="exampleModalLabel"
+                <div class="modal fade" id="addNewAdmin" tabindex="-1" aria-labelledby="addNewAdmin"
                     aria-hidden="true">
                     <div class="modal-dialog">
                         <div class="modal-content">
@@ -30,10 +30,10 @@ current: admin
                                 <form action="">
                                     <div class="border-bottom border-1 pb-4 mb-4">
                                         <p class="h5 fw-bold mb-2">Account</p>
-                                        <label for="name" class="fz-sm">Name</label><br>
-                                        <input type="text" id="name" class="w-100 p-1 mb-2">
-                                        <label for="email" class="fz-sm">Email</label><br>
-                                        <input type="email" id="email" class="w-100 p-1">
+                                        <label for="add-name" class="fz-sm">Name</label><br>
+                                        <input type="text" id="add-name" class="w-100 p-1 mb-2">
+                                        <label for="add-email" class="fz-sm">Email</label><br>
+                                        <input type="email" id="add-email" class="w-100 p-1">
                                     </div>
                                     <div class="border-bottom border-1 pb-4 mb-4">
                                         <p class="h5 fw-bold mb-2">Verification</p>
@@ -58,16 +58,16 @@ current: admin
                                     </div>
                                     <div class="border-bottom border-1 pb-4 mb-4">
                                         <p class="h5 fw-bold mb-2">Custom Access</p>
-                                        <input type="checkbox" id="Lecture" class="me-1 mb-2">
-                                        <label for="Lecture">Lecture</label><br>
-                                        <input type="checkbox" id="Coupon" class="me-1 mb-2">
-                                        <label for="Coupon">Coupon</label><br>
-                                        <input type="checkbox" id="Message" class="me-1 mb-2">
-                                        <label for="Message">Message</label><br>
-                                        <input type="checkbox" id="Setting" class="me-1 mb-2">
-                                        <label for="Setting">Setting</label><br>
-                                        <input type="checkbox" id="Task Menu" class="me-1 mb-2">
-                                        <label for="Task Menu">Task Menu</label><br>
+                                        <input type="checkbox" id="add-Lecture" class="me-1 mb-2">
+                                        <label for="add-Lecture">Lecture</label><br>
+                                        <input type="checkbox" id="add-Coupon" class="me-1 mb-2">
+                                        <label for="add-Coupon">Coupon</label><br>
+                                        <input type="checkbox" id="add-Message" class="me-1 mb-2">
+                                        <label for="add-Message">Message</label><br>
+                                        <input type="checkbox" id="add-Setting" class="me-1 mb-2">
+                                        <label for="add-Setting">Setting</label><br>
+                                        <input type="checkbox" id="add-Task Menu" class="me-1 mb-2">
+                                        <label for="add-Task Menu">Task Menu</label><br>
                                     </div>
                                 </form>
                             </div>
@@ -312,7 +312,7 @@ current: admin
             </section>
 
             <!-- Edit model -->
-            <div class="modal fade" id="editAdmin" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal fade" id="editAdmin" tabindex="-1" aria-labelledby="editAdmin" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -323,10 +323,10 @@ current: admin
                             <form action="">
                                 <div class="border-bottom border-1 pb-4 mb-4">
                                     <p class="h5 fw-bold mb-2">Account</p>
-                                    <label for="name" class="fz-sm">Name</label><br>
-                                    <input type="text" id="name" class="w-100 p-1 mb-2" placeholder="Emir Wicks">
-                                    <label for="email" class="fz-sm">Email</label><br>
-                                    <input type="email" id="email" class="w-100 p-1" placeholder="emir.wicks@mail.com">
+                                    <label for="edit-name" class="fz-sm">Name</label><br>
+                                    <input type="text" id="edit-name" class="w-100 p-1 mb-2" placeholder="Emir Wicks">
+                                    <label for="edit-email" class="fz-sm">Email</label><br>
+                                    <input type="email" id="edit-email" class="w-100 p-1" placeholder="emir.wicks@mail.com">
                                 </div>
                                 <div class="border-bottom border-1 pb-4 mb-4">
                                     <p class="h5 fw-bold mb-2">Verification</p>
@@ -340,7 +340,7 @@ current: admin
                                             2020/4/12
                                         </span>
                                     </div>
-                                    <button type="button" class="btn btn-outline-secondary w-100 py-2" disabled>Send
+                                    <button type="button" class="btn btn-outline-secondary w-100 py-2" readonly>Send
                                         Verification
                                         Mail</button>
                                 </div>
@@ -355,16 +355,16 @@ current: admin
                                 </div>
                                 <div class="border-bottom border-1 pb-4 mb-4">
                                     <p class="h5 fw-bold mb-2">Custom Access</p>
-                                    <input type="checkbox" id="Lecture" class="me-1 mb-2">
-                                    <label for="Lecture">Lecture</label><br>
-                                    <input type="checkbox" id="Coupon" class="me-1 mb-2">
-                                    <label for="Coupon">Coupon</label><br>
-                                    <input type="checkbox" id="Message" class="me-1 mb-2">
-                                    <label for="Message">Message</label><br>
-                                    <input type="checkbox" id="Setting" class="me-1 mb-2">
-                                    <label for="Setting">Setting</label><br>
-                                    <input type="checkbox" id="Task Menu" class="me-1 mb-2">
-                                    <label for="Task Menu">Task Menu</label><br>
+                                    <input type="checkbox" id="edit-Lecture" class="me-1 mb-2">
+                                    <label for="edit-Lecture">Lecture</label><br>
+                                    <input type="checkbox" id="edit-Coupon" class="me-1 mb-2">
+                                    <label for="edit-Coupon">Coupon</label><br>
+                                    <input type="checkbox" id="edit-Message" class="me-1 mb-2">
+                                    <label for="edit-Message">Message</label><br>
+                                    <input type="checkbox" id="edit-Setting" class="me-1 mb-2">
+                                    <label for="edit-Setting">Setting</label><br>
+                                    <input type="checkbox" id="edit-Task Menu" class="me-1 mb-2">
+                                    <label for="edit-Task Menu">Task Menu</label><br>
                                 </div>
                                 <div class="mb-4">
                                     <p class="h5 fw-bold mb-2">Deactivate Account</p>
@@ -387,7 +387,7 @@ current: admin
             </div>
 
             <!-- Detail model -->
-            <div class="modal fade" id="checkDetail" tabindex="-1" aria-labelledby="exampleModalLabel"
+            <div class="modal fade" id="checkDetail" tabindex="-1" aria-labelledby="checkDetail"
                 aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content p-3">
@@ -415,7 +415,7 @@ current: admin
                                             <div class="d-flex justify-content-evenly">
                                                 <button type="button"
                                                     class="btn btn-outline-danger me-2 px-5">Deactivate</button>
-                                                <button type="button" class="btn btn-success px-4">Edit</button>
+                                                <button type="button" class="btn btn-success px-4 ">Edit</button>
                                             </div>
                                         </div>
                                     </div>
@@ -429,8 +429,8 @@ current: admin
             </div>
 
 
-            <footer class="text-end">
-                <div class="btn-group" role="group" aria-label="Basic outlined example">
+            <footer class="d-flex justify-content-end">
+                <!-- <div class="btn-group" role="group" aria-label="Basic outlined example">
                     <button type="button" class="btn btn-outline-success"><span
                             class="material-symbols-rounded align-center fz-sm">
                             arrow_back_ios
@@ -442,7 +442,22 @@ current: admin
                             class="material-symbols-rounded align-center fz-sm">
                             arrow_forward_ios
                         </span></button>
-                </div>
+                </div> -->
+                <nav aria-label="Page navigation example">
+                    <ul class="pagination btn-group">
+                      <li class="page-item"><a class="page-link" href="#"><span
+                        class="material-symbols-rounded align-center fz-sm">
+                        arrow_back_ios
+                    </span></a></li>
+                      <li class="page-item"><a class="page-link" href="#">1</a></li>
+                      <li class="page-item"><a class="page-link" href="#">2</a></li>
+                      <li class="page-item"><a class="page-link" href="#">3</a></li>
+                      <li class="page-item"><a class="page-link" href="#"><span
+                        class="material-symbols-rounded align-center fz-sm">
+                        arrow_forward_ios
+                    </span></a></li>
+                    </ul>
+                  </nav>
             </footer>
         </section>
 
